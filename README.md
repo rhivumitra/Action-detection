@@ -7,8 +7,8 @@ to classify user actions like walking, jogging, dribbling, or clapping.
 
 Features
 
-Real-time sensor data capture from accelerometer and gyroscope.
-Data recording and saving as CSV files for offline analysis.
-Preprocessing and feature extraction pipelines in Python for time-series sensor data.
-Machine learning model training and testing on labeled datasets.
-Android app implemented in Kotlin for sensor data acquisition and on-device prediction.
+Real-time sensor data capture from accelerometer and gyroscope. 
+Data recording and saving as CSV files for offline analysis. [Folder Data]
+Preprocessing and feature extraction pipelines in Python for time-series sensor data. [Folder DataCleaner and FeatureExtraction]
+Machine learning model training and testing on labeled datasets. [Folder Models]
+Android app implemented in Kotlin for sensor data acquisition and on-device prediction. [Folder App/app/src/main/java/]
