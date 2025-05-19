@@ -97,8 +97,4 @@ class SensorCaptureActivity : AppCompatActivity(), SensorEventListener {
             }
         }
     }
-
-    override fun onAccuracyChanged(sensor: Sensor?, accuracy: Int) {
-        // No operation needed here for this app
-    }
 }
