@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.blackboxinvaders">
+
+	<!-- Permission to access device sensors -->
+	<uses-permission android:name="android.permission.BODY_SENSORS" />
+
+	<application
+        android:allowBackup="true"
+        android:label="Blackbox Invaders"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BlackboxInvaders">
+
+		<!-- Main launcher activity -->
+		<activity android:name=".MainMenuActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<!-- Activity for sensor data capture -->
+		<activity android:name=".SensorCaptureActivity" />
+
+		<!-- Activity for data recording and navigation -->
+		<activity android:name=".DataRecordingActivity" />
+
+	</application>
+
+</manifest>

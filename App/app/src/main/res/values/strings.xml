@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BlackboxInvaders</string>
+    <string name="hello_from_android">Hello From Android!</string>
+    <string name="activity_recognition_app">Activity Recognition App</string>
+    <string name="start">Start</string>
+    <string name="get_data">Get Data</string>
+</resources>
